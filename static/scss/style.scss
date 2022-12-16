@@ -1,0 +1,22 @@
+@import 'reset_style';
+@import 'header';
+
+$header_font_color: #BABABA;
+$main_font_color: #FFFFFF;
+$title_font: url('/static/fonts/Kokoro-Regular.ttf');
+$text_font: url('/static/fonts/Rubik-Black.ttf');
+
+
+.wraper{
+    min-height: 100%;
+    overflow: hidden;
+}
+
+._conteiner{
+    max-width: 1046px;
+    margin: 0px auto;
+}
+
+body{
+    background-image: url("/static/images/bg.jpg");
+}
